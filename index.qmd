@@ -10,13 +10,6 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
 
-library(purrr)
-library(emo)
-
-```
-
-```{r}
-
-paste(map(rep("face", 10), ~ emo::ji(.x)), collapse = "")
+print("hey")
 
 ```
