@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "ridgeway-quarto_website"
+  title: "Inside Job"
   navbar:
     left:
       - href: index.qmd

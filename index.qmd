@@ -11,11 +11,12 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ```{r}
 
 library(purrr)
+library(emo)
 
 ```
 
 ```{r}
 
-walk(c(1:10), ~ print(.x^2))
+paste(map(rep("face", 10), ~ emo::ji(.x)), collapse = "")
 
 ```
