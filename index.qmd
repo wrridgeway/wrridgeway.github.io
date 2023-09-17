@@ -12,6 +12,7 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 library(purrr)
 library(emo)
+library(rsconnect)
 
 ```
 
